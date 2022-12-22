@@ -34,7 +34,7 @@ static int	putparam(char c, va_list args)
 	else if (c == 's')
 		return (ft_putstr_fd(va_arg(args, char *), 1));
 	else if (c == 'd')
-		return (ft_putnbr_fd(va_arg(args, int), 1));
+		return (ft_putnbr_fd(va_arg(args, long), 1));
 	else if (c == 'i')
 		return (ft_putnbr_fd(va_arg(args, int), 1));
 	else if (c == 'p')
