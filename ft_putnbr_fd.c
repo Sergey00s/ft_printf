@@ -12,9 +12,9 @@
 
 #include "ft_printf.h"
 
-int	ft_putnbr_fd(int n, int fd)
+int	ft_putnbr_fd(long n, int fd)
 {
-	int	rtn;
+	long	rtn;
 
 	rtn = 0;
 	if (n == -2147483648)
